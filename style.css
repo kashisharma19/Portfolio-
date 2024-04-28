@@ -1,0 +1,111 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-color: #191a32;
+    color: #f8f1f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #28224c;
+    color: #f4ebeb;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Article and section styles */
+article,
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #283470;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(248, 245, 245, 0.1);
+}
+
+.about-me-content {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.about-me-text {
+    flex: 1; /* Take remaining space */
+}
+
+/* Headings */
+h1,
+h2 {
+    color: #f1cdcd;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f7fafd;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Anchor styles */
+a {
+    color: #e7edf1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #fffcfc;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #191931;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+tbody tr:hover {
+    background-color: #30306f;
+}
